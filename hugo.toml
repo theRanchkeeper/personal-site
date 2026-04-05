@@ -3,7 +3,7 @@
 baseURL = "https://example.com"
 
 # The name of this wonderful theme ;-).
-theme = 'hugo-bearblog'
+theme = 'bear-theme'
 
 # Basic metadata configuration for your blog.
 title = "Abhiram's space on web"
@@ -20,6 +20,12 @@ ignoreErrors = ["error-disable-taxonomy"]
 [permalinks]
   blog = "/:slug/"
   tags = "/blog/:slug"
+
+[[menus.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
