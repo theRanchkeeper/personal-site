@@ -6,7 +6,7 @@ baseURL = "https://example.com"
 theme = 'bear-theme'
 
 # Basic metadata configuration for your blog.
-title = "Abhiram's space on web"
+title = "Abhiram's space on the web"
 author = "Abhiram M J"
 # copyright = "Copyright © 2020, Jane Doe."
 languageCode = "en-US"
@@ -25,6 +25,10 @@ ignoreErrors = ["error-disable-taxonomy"]
     name = "Blog"
     url = "/blog/"
     weight = 2
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 
 [params]
